@@ -7,3 +7,9 @@ CREATE TABLE IF NOT EXISTS `member` (
   `address` varchar(100) NOT NULL,
    PRIMARY KEY (`mem_id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+create table if not exists 'deleted_member' (
+  'mem_id' int(11) NOT NULL AUTO_INCREMENT,
+  PRIMARY KEY ('mem_id')
+  ENGINE=InnoDB DEFAULT CHARSET=latin1;
+  )
